@@ -1,6 +1,6 @@
-const path = require('path');
-const solc = require('solc');
-const fs = require('fs-extra');
+const path = require("path");
+const solc = require("solc");
+const fs = require("fs-extra");
 
 // Reference to build folder
 const buildPath = path.resolve(__dirname, 'build');

@@ -41,7 +41,7 @@ contract Campaign{
 
     // Constructor
     // msg is a global var
-    constructor(uint min, address creator) public{
+    function Campaign(uint min, address creator) public{
         manager = creator;
         minContribution = min;
     }
